@@ -11,12 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .favButton{
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
   border: none;
   width: 100%;
   cursor: pointer;
+}
+
+.favButton:hover{
+  background-color: lightskyblue;
 }
 
 h1{
@@ -33,9 +38,10 @@ nav{
 a{
   color: #000;
   text-decoration: none;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
 }
+
 a:hover{
   color: rgb(136, 136, 136);
 } 
@@ -76,8 +82,9 @@ form{
   flex-direction: column;
   align-items: center;
   width: 200px;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+  margin: 30px;
 }
 
 .card:hover{
@@ -86,13 +93,19 @@ form{
 
 .card-grid{
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-between;
   gap: 1rem;
   width: 90vw;
   height: auto;
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
+.card img{
+  width: 200px;
+}
+
+
 
 table {
  border-collapse: collapse;
